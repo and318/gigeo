@@ -4,14 +4,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/style.css">
-    <title>Document</title>
+    <title>GIGEO</title>
 </head>
 <body>
-    <a href="#" class="btn btn-danger">Test</a>
+    <header class="container-fluid header">
+        <section class="row">
+            <div class="col-md-12 header__banner">
+
+            </div>
+        </section>
+        <div class="container">
+            <div class="row header__profile d-flex justify-content-between py-3 px-3">
+                <div class="header__info d-flex flex-row">
+                    <div class="header__avatar">
+                        <img src="./assets/img/profile-image.png" alt="profile-image" class="img-fluid rounded-circle">
+                    </div>
+                    <div class="header__details d-flex flex-column justify-content-center align-items-start pl-4">
+                        <div class="header__name">Yuki Mukami</div>
+                        <div class="header__followers">30.000 Seguidores</div>
+                    </div>
+                </div>
+                <div class="header__actions justify-content-end d-flex align-items-center">
+                    <button class="btn btns header__btn-blue mr-3">Mensaje</button>
+                    <button class="btn btns header__btn-red">Seguir</button>
+                </div>
+            </div>
+        </div>
+    </header>
     <div class="container">
-        <div class="row">
-            <div class="col-xs-12">
-                <h1>Hola</h1>
+        <h3 class="my-5">Videos Populares</h3>
+        <div class="row video__gallery">
+            <div class="col-md-3 col-sm-12 video__single">
+                <img src="./assets/img/image-1.png" alt="video thumb" class="img-fluid mx-auto d-block mb-3">
+                <div class="video__title">
+                    <h3 class="mb-0 ">Después de la vela - Yuki Mukami</h3>
+                </div>
+                <div class="video__description">
+                    <span class="video__visitas"> 
+                       <small> 16k visitas</small></span> - 
+                    <span class="video__date"><small>1 semana atrás</small></span>
+                </div>
             </div>
         </div>
     </div>
