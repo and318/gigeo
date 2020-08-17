@@ -1,43 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/style.css">
     <title>GIGEO</title>
 </head>
+
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light navbar__main">
         <a class="navbar-brand navbar__brand" href="#">GIGEO <small>ART</small></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+        <button class="navbar-toggler navbar__toggler" type="button" data-toggle="collapse" data-target="#navbarMenu"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar__icon"> <i class="fas fa-bars"></i></span>
         </button>
-      
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ml-md-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Dropdown
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Something else here</a>
-              </div>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-            </li>
-          </ul>
+
+        <div class="collapse navbar-collapse navbar__menu" id="navbarMenu">
+            <ul class="navbar-nav ml-md-auto">
+                <li class="nav-item navbar__links">
+                    <a class="nav-link " href="#"><i class="fas fa-search"></i></a>
+                </li>
+                <li class="nav-item navbar__links">
+                    <a class="nav-link" href="#"><i class="fas fa-video"></i></a>
+                </li>
+                <li class="nav-item navbar__links">
+                    <a class="nav-link" href="#"><i class="fas fa-plus"></i></a>
+                </li>
+                <li class="nav-item navbar__links">
+                    <a class="nav-link" href="#"><i class="far fa-bell"></i></a>
+                </li>
+                <li class="nav-item navbar__links">
+                    <a class="nav-link" href="#"><i class="fas fa-bars"></i></a>
+                </li>
+            </ul>
         </div>
-      </nav>
+    </nav>
     <header class="container-fluid header">
         <section class="row">
             <div class="col-md-12 header__banner">
@@ -64,8 +62,8 @@
     </header>
     <div class="container">
         <div class="video__main-title d-flex">
-        <h3 class="my-5 ">Videos Populares</h3>
-    </div>
+            <h3 class="my-5 ">Videos Populares</h3>
+        </div>
         <div class="row video__gallery">
             <div class="col-md-3 col-sm-12 video__single">
                 <img src="./assets/img/image-1.png" alt="video thumb" class="img-fluid mx-auto d-block mb-3">
@@ -73,7 +71,7 @@
                     <h3 class="mb-0 ">Después de la vela - Yuki Mukami</h3>
                 </div>
                 <div class="video__description">
-                    <span class="video__vistas"> 16k vistas</span> - 
+                    <span class="video__vistas"> 16k vistas</span> -
                     <span class="video__date">1 semana atrás</span>
                 </div>
             </div>
@@ -83,7 +81,7 @@
                     <h3 class="mb-0 ">Far Away - Yuki Mukami</h3>
                 </div>
                 <div class="video__description">
-                    <span class="video__vistas"> 100k vistas</span> - 
+                    <span class="video__vistas"> 100k vistas</span> -
                     <span class="video__date">1 mes atrás</span>
                 </div>
             </div>
@@ -93,7 +91,7 @@
                     <h3 class="mb-0 ">City - Yuki Mukami</h3>
                 </div>
                 <div class="video__description">
-                    <span class="video__vistas"> 20k vistas</span> - 
+                    <span class="video__vistas"> 20k vistas</span> -
                     <span class="video__date">1 mes atrás</span>
                 </div>
             </div>
@@ -103,7 +101,7 @@
                     <h3 class="mb-0 ">A Yuki Tale - Yuki Mukami</h3>
                 </div>
                 <div class="video__description">
-                    <span class="video__vistas"> 1m vistas</span> - 
+                    <span class="video__vistas"> 1m vistas</span> -
                     <span class="video__date">1 año atrás</span>
                 </div>
             </div>
@@ -113,7 +111,7 @@
                     <h3 class="mb-0 ">Mapocho - Yuki Mukami</h3>
                 </div>
                 <div class="video__description">
-                    <span class="video__vistas"> 100k vistas</span> - 
+                    <span class="video__vistas"> 100k vistas</span> -
                     <span class="video__date">1 mes atrás</span>
                 </div>
             </div>
@@ -123,7 +121,7 @@
                     <h3 class="mb-0 ">Lucky Days - Yuki Mukami</h3>
                 </div>
                 <div class="video__description">
-                    <span class="video__vistas"> 40k vistas</span> - 
+                    <span class="video__vistas"> 40k vistas</span> -
                     <span class="video__date">3 meses atrás</span>
                 </div>
             </div>
@@ -133,7 +131,7 @@
                     <h3 class="mb-0 ">30 Days in My House - Yuki Mukami</h3>
                 </div>
                 <div class="video__description">
-                    <span class="video__vistas"> 10k vistas</span> - 
+                    <span class="video__vistas"> 10k vistas</span> -
                     <span class="video__date">4 meses atrás</span>
                 </div>
             </div>
@@ -143,7 +141,7 @@
                     <h3 class="mb-0 ">Santiago - Yuki Mukami</h3>
                 </div>
                 <div class="video__description">
-                    <span class="video__vistas"> 40k vistas</span> - 
+                    <span class="video__vistas"> 40k vistas</span> -
                     <span class="video__date">3 meses atrás</span>
                 </div>
             </div>
@@ -156,4 +154,5 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/js/all.min.js"></script>
     <script src="./assets/js/scripts.js"></script>
 </body>
+
 </html>

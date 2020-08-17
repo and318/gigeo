@@ -1,19 +1,37 @@
 body {
     font-family: 'Montserrat', sans-serif;
 }
-.navbar{
+
+.navbar {
     &__brand {
         font-family: 'Poppins', sans-serif;
         font-size: 3rem;
         display: flex;
+
         @include respond-to($min-laptop) {
             font-size: 2rem;
-            }
-    small {
-        font-size: 10px;
+        }
+
+        small {
+            font-size: 10px;
+        }
     }
+
+    &__toggler {
+        border: none;
+    }
+
+    &__icon {
+        font-size: 2.5rem;
+    }
+
+    &__links a {
+        color: $black !important;
+        font-size: $large;
+        padding: 0 0.625rem !important;
     }
 }
+
 .header {
     &__banner {
         background-image: url('../img/image-banner.png');
@@ -21,21 +39,24 @@ body {
         background-size: cover;
         background-position: center;
         height: 110px;
+
         @include respond-to($min-laptop) {
-        height:200px;
+            height: 200px;
         }
     }
+
     &__profile {
         display: flex;
-        justify-content:center;
+        justify-content: center;
+
         @include respond-to($min-laptop) {
             justify-content: space-between;
-            }
+        }
 
     }
-    &__info {
-        
-    }
+
+    &__info {}
+
     &__avatar {
         img {
             width: 80px;
@@ -43,54 +64,67 @@ body {
 
         }
     }
+
     &__name {
         font-size: $large;
         font-weight: 600;
     }
+
     &__actions {
         display: none !important;
+
         @include respond-to($min-laptop) {
             display: flex !important;
-            }
+        }
     }
+
     &__btn-blue {
-        background-color:$light-blue;
+        background-color: $light-blue;
     }
+
     &__btn-red {
         background-color: $red;
     }
 }
+
 .video {
     &__main-title {
         justify-content: center;
+
         @include respond-to($min-laptop) {
             justify-content: start;
-            }
+        }
     }
+
     &__single {
         padding: 0 2.5rem 2.5rem;
+
         @include respond-to($min-laptop) {
             padding: 0 1.875rem 1.25rem 0;
-            }
-        
+        }
+
 
     }
+
     &__title {
         h3 {
-        font-size: $large;
-        font-weight: bold;
-        @include respond-to($min-laptop) {
-            font-size: $medium;
+            font-size: $large;
+            font-weight: bold;
+
+            @include respond-to($min-laptop) {
+                font-size: $medium;
             }
         }
     }
+
     &__description {
         color: $gray;
         font-weight: 300;
         font-size: $large;
+
         @include respond-to($min-laptop) {
             font-size: $small;
-            }
+        }
     }
 
 }
