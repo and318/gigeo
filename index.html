@@ -7,6 +7,37 @@
     <title>GIGEO</title>
 </head>
 <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand navbar__brand" href="#">GIGEO <small>ART</small></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-md-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Dropdown
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
     <header class="container-fluid header">
         <section class="row">
             <div class="col-md-12 header__banner">
@@ -14,7 +45,7 @@
             </div>
         </section>
         <div class="container">
-            <div class="row header__profile d-flex justify-content-between py-3 px-3">
+            <div class="row header__profile  py-3 px-3">
                 <div class="header__info d-flex flex-row">
                     <div class="header__avatar">
                         <img src="./assets/img/profile-image.png" alt="profile-image" class="img-fluid rounded-circle">
@@ -32,7 +63,9 @@
         </div>
     </header>
     <div class="container">
-        <h3 class="my-5">Videos Populares</h3>
+        <div class="video__main-title d-flex">
+        <h3 class="my-5 ">Videos Populares</h3>
+    </div>
         <div class="row video__gallery">
             <div class="col-md-3 col-sm-12 video__single">
                 <img src="./assets/img/image-1.png" alt="video thumb" class="img-fluid mx-auto d-block mb-3">
@@ -40,12 +73,87 @@
                     <h3 class="mb-0 ">Después de la vela - Yuki Mukami</h3>
                 </div>
                 <div class="video__description">
-                    <span class="video__visitas"> 
-                       <small> 16k visitas</small></span> - 
-                    <span class="video__date"><small>1 semana atrás</small></span>
+                    <span class="video__vistas"> 16k vistas</span> - 
+                    <span class="video__date">1 semana atrás</span>
                 </div>
             </div>
+            <div class="col-md-3 col-sm-12 video__single">
+                <img src="./assets/img/image-2.png" alt="video thumb" class="img-fluid mx-auto d-block mb-3">
+                <div class="video__title">
+                    <h3 class="mb-0 ">Far Away - Yuki Mukami</h3>
+                </div>
+                <div class="video__description">
+                    <span class="video__vistas"> 100k vistas</span> - 
+                    <span class="video__date">1 mes atrás</span>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-12 video__single">
+                <img src="./assets/img/image-3.png" alt="video thumb" class="img-fluid mx-auto d-block mb-3">
+                <div class="video__title">
+                    <h3 class="mb-0 ">City - Yuki Mukami</h3>
+                </div>
+                <div class="video__description">
+                    <span class="video__vistas"> 20k vistas</span> - 
+                    <span class="video__date">1 mes atrás</span>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-12 video__single">
+                <img src="./assets/img/image-4.png" alt="video thumb" class="img-fluid mx-auto d-block mb-3">
+                <div class="video__title">
+                    <h3 class="mb-0 ">A Yuki Tale - Yuki Mukami</h3>
+                </div>
+                <div class="video__description">
+                    <span class="video__vistas"> 1m vistas</span> - 
+                    <span class="video__date">1 año atrás</span>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-12 video__single">
+                <img src="./assets/img/image-5.png" alt="video thumb" class="img-fluid mx-auto d-block mb-3">
+                <div class="video__title">
+                    <h3 class="mb-0 ">Mapocho - Yuki Mukami</h3>
+                </div>
+                <div class="video__description">
+                    <span class="video__vistas"> 100k vistas</span> - 
+                    <span class="video__date">1 mes atrás</span>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-12 video__single">
+                <img src="./assets/img/image-6.png" alt="video thumb" class="img-fluid mx-auto d-block mb-3">
+                <div class="video__title">
+                    <h3 class="mb-0 ">Lucky Days - Yuki Mukami</h3>
+                </div>
+                <div class="video__description">
+                    <span class="video__vistas"> 40k vistas</span> - 
+                    <span class="video__date">3 meses atrás</span>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-12 video__single">
+                <img src="./assets/img/image-7.png" alt="video thumb" class="img-fluid mx-auto d-block mb-3">
+                <div class="video__title">
+                    <h3 class="mb-0 ">30 Days in My House - Yuki Mukami</h3>
+                </div>
+                <div class="video__description">
+                    <span class="video__vistas"> 10k vistas</span> - 
+                    <span class="video__date">4 meses atrás</span>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-12 video__single">
+                <img src="./assets/img/image-8.png" alt="video thumb" class="img-fluid mx-auto d-block mb-3">
+                <div class="video__title">
+                    <h3 class="mb-0 ">Santiago - Yuki Mukami</h3>
+                </div>
+                <div class="video__description">
+                    <span class="video__vistas"> 40k vistas</span> - 
+                    <span class="video__date">3 meses atrás</span>
+                </div>
+            </div>
+
         </div>
     </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/js/all.min.js"></script>
+    <script src="./assets/js/scripts.js"></script>
 </body>
 </html>
